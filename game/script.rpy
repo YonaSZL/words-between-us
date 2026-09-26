@@ -1,8 +1,9 @@
-﻿# The script of the game goes in this file.
+﻿﻿# The script of the game goes in this file.
 
 label start:
     $ time_of_day = TIMES_OF_DAY[0]
-    show bg room
+    show bg room:
+        zoom 1.5
 
     show eileen happy
 
